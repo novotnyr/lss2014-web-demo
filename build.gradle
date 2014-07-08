@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'jetty'
+apply plugin: 'eclipse'
 
 dependencies {
     providedCompile files('lib/javax.servlet-api-3.0.1.jar')
