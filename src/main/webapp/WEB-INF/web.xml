@@ -7,10 +7,19 @@
     <servlet-name>WelcomeServlet</servlet-name>
     <servlet-class>sk.upjs.ics.lss.WelcomeServlet</servlet-class>
   </servlet>
+
+  <servlet>
+    <servlet-name>RegistraciaServlet</servlet-name>
+    <servlet-class>sk.upjs.ics.lss.RegistraciaServlet</servlet-class>
+  </servlet>
    
   <servlet-mapping>
     <servlet-name>WelcomeServlet</servlet-name>
     <url-pattern>/welcome</url-pattern>
   </servlet-mapping>
 
+  <servlet-mapping>
+    <servlet-name>RegistraciaServlet</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
 </web-app>
